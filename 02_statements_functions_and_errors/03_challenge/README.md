@@ -1,23 +1,22 @@
 # Challenge 3
 
-The following program calculates the average of three numbers entered by the user. Test this program with different inputs. Is the program functioning correctly or not? If not, fix the program so that it gives the output you expect.
+Write a C++ function `power` which takes two arguments - `base` and `exponent`. `exponent` has a default value of 2. `power` returns the result of `base` raised to the power `exponent`. Call this function with a base of 3 and exponent of 4.
+
+---
 
 ```cpp
-#include <iostream>
+#include<iostream>
+
+int power(int base, int exponent = 2) {
+  int result = 1;
+  for(int i = 0; i < exponent; i++) {
+    result *= base;
+  }
+  return result;
+}
 
 int main() {
-    int num1;
-    int num2;
-    int num3;
-    float average;
-
-    std::cout << "Enter three numbers: ";
-    std::cin >> num1 >> num2 >> num3;
-
-    average = (num1 + num2 + num3) / 3;
-
-    std::cout << "Average is: " << average << std::endl;
-
-    return 0;
+  std::cout << "3 to the power 4 is: " << power(3, 4) << std::endl;
+  return 0;
 }
 ```
