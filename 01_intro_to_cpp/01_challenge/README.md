@@ -1,4 +1,4 @@
-# Challenge 2
+# Challenge 1
 Complete the program
 
 ```cpp
@@ -12,5 +12,6 @@ int main() {
     int answer = myNumber + anotherNumber;
 
     std::cout << answer << std::endl;
+    return 0;
 }
 ```
