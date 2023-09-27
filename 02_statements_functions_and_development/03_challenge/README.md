@@ -21,27 +21,3 @@ int main() {
     return 0;
 }
 ```
-
----
-
-The program will work correctly for integers but will give incorrect results for decimal numbers. This is because `num1`, `num2`, and `num3` are all `int`s. We need to change these variables to `float`s.
-
-```cpp
-#include <iostream>
-
-int main() {
-    float num1;
-    float num2;
-    float num3;
-    float average;
-
-    std::cout << "Enter three numbers: ";
-    std::cin >> num1 >> num2 >> num3;
-
-    average = (num1 + num2 + num3) / 3;
-
-    std::cout << "Average is: " << average << std::endl;
-
-    return 0;
-}
-```

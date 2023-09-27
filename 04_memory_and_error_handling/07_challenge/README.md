@@ -20,11 +20,3 @@ int main() {
     std::cout << "After reserving space: size: " << numbers.size() << ", capacity: " << numbers.capacity() << std::endl;
 }
 ```
-
----
-
-```
-Initial size: 0, capacity: 0
-After adding elements: size: 3, capacity: 4
-After reserving space: size: 3, capacity: 10
-```
