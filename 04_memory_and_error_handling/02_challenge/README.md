@@ -16,24 +16,3 @@ int main() {
     std::cout << "After swap: a = " << a << ", b = " << b << std::endl;
 }
 ```
-
----
-
-```cpp
-#include <iostream>
-
-void swap_int(int *a, int *b) {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}
-
-int main() {
-    int a = 10;
-    int b = 20;
-
-    std::cout << "Before swap: a = " << a << ", b = " << b << std::endl;
-    swap_int(&a, &b);
-    std::cout << "After swap: a = " << a << ", b = " << b << std::endl;
-}
-```

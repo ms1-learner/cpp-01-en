@@ -11,17 +11,3 @@ int main() {
     // TODO
 }
 ```
-
----
-
-```cpp
-#include <iostream>
-
-int main() {
-    int x = 42;
-
-    std::cout << "Address of x: " << &x << std::endl;
-    int *p = &x;
-    std::cout << "Value pointed by p: " << *p << std::endl;
-}
-```
