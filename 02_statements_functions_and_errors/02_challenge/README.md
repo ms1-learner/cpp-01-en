@@ -1,26 +1,20 @@
 # Challenge 2
 
-The following program is supposed to find the maximum of two numbers entered by the user but it's not working correctly. Debug it and fix it.
+Complete the function declaration and definition to create a recursive function factorial which takes an integer `n` and returns the factorial of `n`.
 
 ```cpp
-#include <iostream>
+______ factorial(int n);
 
 int main() {
-    int num1;
-    int num2;
-    int max;
+  std::cout << "Factorial of 4 is " << factorial(4) << std::endl;
+  return 0;
+}
 
-    std::cout << "Enter two numbers: ";
-    std::cin >> num1 >> num2;
-
-    if (num1 > num2) {
-        max == num1;
-    } else {
-        max == num2;
-    }
-
-    std::cout << "Maximum is: " << max << std::endl;
-
-    return 0;
+______ factorial(int n) {
+  if (n == 0) {
+    ______ 1;
+  } else {
+    ______ n * factorial(n - 1);
+  }
 }
 ```
