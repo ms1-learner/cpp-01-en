@@ -22,35 +22,35 @@ We will clone the repository located `https://github.com/ms1-learner/cpp-01-jp` 
 
 Navigate to the repository via the given link.
 
-![challenge-submission-1](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-1)
+![challenge-submission-1](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-1.png)
 
 Copy the repository link.
 
-![challenge-submission-2](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-2)
+![challenge-submission-2](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-2.png)
 
 Open the terminal on your computer and navigate to the desktop or the folder you want to download the repository in. To navigate to the Desktop via the terminal, type cd Desktop then press Enter/Return on your keyboard.
 
-![challenge-submission-3](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-3)
+![challenge-submission-3](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-3.png)
 
 After navigating to Desktop, type git clone followed by the repository link you copied in step 2 then press Enter/Return on your keyboard.
 
-![challenge-submission-4](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-4)
+![challenge-submission-4](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-4.png)
 
 The repository folder should now appear on your Desktop. Drag and drop it or open it using Visual Studio Code.
 
-![challenge-submission-5](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-5)
+![challenge-submission-5](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-5.png)
 
-![challenge-submission-6](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-6)
+![challenge-submission-6](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-6.png)
 
 All challenges are contained within folders in the repository. Each one these folders will have the name and the number of the relevant unit. Each unit has at least 1 challenge and at most 5. 
 
 - If a unit folder has one challenge, this challenge details will be contained in a README file.
 
- ![challenge-submission-7](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-7)
+ ![challenge-submission-7](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-7.png)
 
 -  If a unit folder has more than one challenge, each challenge details will be contained within a sub-folder.
 
-![challenge-submission-8](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-8)
+![challenge-submission-8](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-8.png)
 
 ## Creating Your Remote Repository
 The process of submitting challenges requires all learners to create remote GitHub repositories. These repositories are where you will store all your solutions to the challenges and add instructors for reviewing and grading.
@@ -63,14 +63,14 @@ Creating an account on Github is straightforward. We begin by heading to https:/
 
 You will be presented with a prompt to fill in your basic information. Fill it in, solve the captcha and you will end up with something that looks like the following:
 
-![challenge-submission-9](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-9)
+![challenge-submission-9](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-9.png)
 
 After finishing, you will be asked some additional questions.
 
-![challenge-submission-10](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-10)
+![challenge-submission-10](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-10.png)
 Finally, you will be asked whether you would like to go with the free plan or the paid plan. A free account is more than enough for what we will be doing, so go ahead and proceed with the free plan.
 
-![challenge-submission-11](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-11)
+![challenge-submission-11](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-11.png)
 
 And that’s it! You are done! You should now see your Github account dashboard.
 
@@ -79,17 +79,17 @@ And that’s it! You are done! You should now see your Github account dashboard.
 
 Within your profile page, click on “Repositories” tab then click on the “New” button.
 
-![challenge-submission-12](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-12)
+![challenge-submission-12](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-12.png)
 
 Provide a name for your repository and make sure it’s set to “public”.
 
 > We require all learners' repositories to be public for grading purposes.
 
-![challenge-submission-13](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-13)
+![challenge-submission-13](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-13.png)
 
 That’s it! Copy the repository link as we will use it to connect this GitHub repository with the one you cloned earlier.
 
-![challenge-submission-14](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-14)
+![challenge-submission-14](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-14.png)
 
 ### Connecting the GitHub Repository with Your Local Repository
 To link the cloned local repository to the newly created GitHub repository, you will need to run some Git commands.
@@ -98,7 +98,7 @@ To link the cloned local repository to the newly created GitHub repository, you 
 
 Navigate to your local repository folder.
 
-![challenge-submission-15](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-15)
+![challenge-submission-15](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-15.png)
 
 
 
@@ -106,11 +106,11 @@ The current repository is a clone of the remote one you accessed via the ms1-lea
 
 First, let’s check the current remote repository. Run the command git remote -v then press Enter/Return on your keyboard.
 
-![challenge-submission-16](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-16)
+![challenge-submission-16](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-16.png)
 
 To change this, run the command git remote set-url origin followed by your GitHub repository link.
 
-![challenge-submission-17](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-17)
+![challenge-submission-17](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-17.png)
 
 As you can observe in the screenshot above, the remote repository is now changed from `https://github.com/ms1-learner/cpp-01-jp.git` to `https://github.com/devwoven/cpp-challenges-01.git`
 
@@ -149,7 +149,7 @@ To submit your solution and push it to your GitHub repository, you need to first
 
 The first command asks Git to track this new file and the second command saves it with the message “My solution to challenge of unit 01”.
 
-![challenge-submission-18](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-18)
+![challenge-submission-18](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-18.png)
 
 Now, your solution is ready to be pushed to the remote repository. Let’s see how we can achieve this.
 
@@ -159,7 +159,7 @@ Run the following command:
 
 > The order in this command is very important. Make sure the only thing you change here is the branch name you created. 
 
-![challenge-submission-19](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-19)
+![challenge-submission-19](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-19.png)
 
 Now, navigate to your GitHub repository. The changes should be successfully pushed!
 
@@ -172,20 +172,20 @@ Navigate to the corresponding challenge page on MS1.
 
 At the bottom, add the link of your GitHub repository and click “Submit”.
 
-![challenge-submission-20](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-20)
+![challenge-submission-20](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-20.png)
 
 ### Adding instructors to your repository
 In order for instructors to review and grade your solutions, you need to add them to your GitHub repository as collaborators.
 
 To add collaborators, click on the “Settings” button.
 
-![challenge-submission-21](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-21)
+![challenge-submission-21](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-21.png)
 
 Navigate to the “Collaborators” setting on the left-hand panel and click on it. 
 
 Under “Manage access”, click on “Add people” and add the assigned instructor GitHub username or email.
 
-![challenge-submission-22](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-22)
+![challenge-submission-22](https://github.com/ms1-learner/cpp-01-en/assets/challenge-submission-22.png)
 
 And that’s it! The solution is now uploaded correctly and can be viewed by instructors!
 
