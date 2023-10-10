@@ -1,17 +1,21 @@
 # MS1 Challenge Guide
 
-A challenge is an integral part of your journey at MS1 to ensure you practice and apply what you learn. At the end of each unit of study, you will be given a challenge to solve based on what you have learned so far.  Each challenge has a set of requirements and steps you need to follow. A challenge’s requirements aren’t necessarily confined to the skills you learned in the unit that preceded it. Instead, a challenge solution may require that you put together all the skills you have learned from the start of the curriculum.
+A challenge is an integral part of your journey at MS1 to ensure you practice and apply what you learn. At the end of each unit of study, you will be given one or more challenges to solve based on what you have learned so far. Each challenge has a set of requirements and steps you need to follow. A challenge’s requirements aren’t necessarily confined to the skills you learned in the unit that preceded it. Instead, a challenge solution may require that you put together all the skills you have learned from the start of the curriculum.
 
 ## Accessing Challenges
-All MS1 challenges are hosted on a GitHub organization account named ms1-learner. Each challenge lives inside a GitHub repository created on ms1-learner. At the end of each unit, you’ll find an instructions page for this unit’s specific challenge. The instructions page will contain a link to the challenge repository on GitHub.
+At the end of each unit, you’ll find an instructions page for each challenge page in that unit. The instructions page will contain a link to the challenge repository on GitHub and the path of that specific challenge within the repository.
 
 The general link structure will be something like the following:
 
 `https://github.com/ms1-learner/[learning path]-[module number]-[locale version]`
 
-For instance, all challenge of module 1 of the C++ learning path  for those studying in Japanese can be accessed via:
+For instance, all challenges of module 1 of the C++ learning path for those studying in Japanese can be accessed via:
 
 `https://github.com/ms1-learner/cpp-01-jp`
+
+Each challenge can be accessed by following the path with the repository which is specified on the insrtuctions page. For example:
+
+`01_introduction_to_cpp/01_challenge`
 
 ## Copying Challenges to Your Local Machine
 To submit a challenge after navigating to its parent repository, you will need to clone the entire repository to your local machine. If you are unfamiliar with what ‘clone’ means, it’s basically downloading the repository to be able to work on it on your device. 
@@ -74,7 +78,7 @@ Finally, you will be asked whether you would like to go with the free plan or th
 
 And that’s it! You are done! You should now see your Github account dashboard.
 
-## Creating Your GitHub Repository
+### Creating Your GitHub Repository
 > Feel free to skip this sub-section if you already have created a public GitHub Repository.
 
 Within your profile page, click on “Repositories” tab then click on the “New” button.
@@ -139,7 +143,7 @@ int main() {
 ```
 Assume you saved this program in a file called add.cpp. Let’s now save and push this solution to the remote repository.
 
-## Preparing and pushing the solutions for grading
+### Preparing and pushing the solutions for grading
 
 To submit your solution and push it to your GitHub repository, you need to first “commit” this solution. To do so, run the following commands in the terminal:
 
