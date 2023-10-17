@@ -193,4 +193,4 @@ Under “Manage access”, click on “Add people” and add the assigned instru
 
 And that’s it! The solution is now uploaded correctly and can be viewed by instructors!
 
-Best of luck :slight_smile: 
+Best of luck!
