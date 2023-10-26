@@ -18,7 +18,7 @@ TEST(MathOperations, Divide) {
 }
 
 TEST(MathOperations, DivideByZero) {
-    ASSERT_THROW(MathOps::divide(6, 0), const char*);
+    ASSERT_THROW(MathOps::divide(6, 0), std::runtime_error);
 }
 
 int main(int argc, char **argv) {
