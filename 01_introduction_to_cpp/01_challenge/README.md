@@ -1,10 +1,10 @@
 # Challenge 1
-Complete the program
+Create a `main.cpp` file in this directory, copy this code into it, and complete the program.
 
 ```cpp
-int main() {
-    //add any missing values, data types or other code to complete the program
+// add any missing values, data types or other code to complete the program
 
+int main() {
     int myNumber = 
 
     anotherNumber = 5;

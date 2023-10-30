@@ -1,14 +1,6 @@
 # Challenge 3
 
-In this Challenge, you will practice using fundamental C++ skills and keywords.
-
-## Requirements
-
-- Copy and Paste the below code into a new `.cpp` file.
-- Read the comments in the code, and follow the instructions complete the tasks.
-- Compile the code and execute it.
-
-If the code compiles and executes without errors, the challenge is complete.
+Create a `main.cpp` file in this directory, copy this code into it, and complete the program. Read the comments in the code, and follow the instructions to complete the tasks.
 
 ```cpp
 #include <iostream>

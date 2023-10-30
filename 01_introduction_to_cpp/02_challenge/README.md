@@ -1,6 +1,5 @@
 # Challenge 2
-
-Fill in the missing operators to make all the boolean expressions evaluate correctly.
+Create a `main.cpp` file in this directory, copy this code into it, and complete the program. Fill in the missing operators to make all the boolean expressions evaluate correctly.
 
 ```cpp
 int main() {
