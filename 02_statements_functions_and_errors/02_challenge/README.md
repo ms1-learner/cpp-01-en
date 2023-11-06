@@ -1,6 +1,6 @@
 # Challenge 2
 
-Complete the function declaration and definition to create a recursive function factorial which takes an integer `n` and returns the factorial of `n`.
+Create a `main.cpp` file in this directory, and copy this code into it. Complete the function declaration and definition to create a recursive function factorial which takes an integer `n` and returns the factorial of `n`.
 
 ```cpp
 ______ factorial(int n);

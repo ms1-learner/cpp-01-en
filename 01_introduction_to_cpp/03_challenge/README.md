@@ -1,6 +1,6 @@
 # Challenge 3
 
-Create a `main.cpp` file in this directory, copy this code into it, and complete the program. Read the comments in the code, and follow the instructions to complete the tasks.
+Create a `main.cpp` file in this directory, and copy this code into it. Read the comments in the code, and follow the instructions to complete the tasks.
 
 ```cpp
 #include <iostream>

@@ -29,4 +29,4 @@ int main() {
 }
 ```
 
-Compile and run this program. Fix the code that is causing this error. You should only be adding code to fix the code, not removing code.
+Compile and run this program. Fix the code that is causing this error. You should only be adding code to fix the problem, not removing code.

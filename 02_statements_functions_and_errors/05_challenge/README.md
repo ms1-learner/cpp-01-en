@@ -1,5 +1,7 @@
 # Challenge 5
 
+Create a `main.cpp` file in this directory, and copy this code into it.
+
 The following program calculates the average of three numbers entered by the user. Test this program with different inputs. Is the program functioning correctly or not? If not, fix the program so that it gives the output you expect.
 
 ```cpp

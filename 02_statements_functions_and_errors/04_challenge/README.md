@@ -1,5 +1,7 @@
 # Challenge 4
 
+Create a `main.cpp` file in this directory, and copy this code into it.
+
 The following program is supposed to find the maximum of two numbers entered by the user but it's not working correctly. Debug it and fix it.
 
 ```cpp

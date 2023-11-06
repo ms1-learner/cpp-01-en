@@ -12,24 +12,24 @@ TEST(Test, Compilation) {
     ASSERT_EQ(pass, true);
 }
 
-TEST(MathOperations, Add) {
+TEST(Test, Add) {
     ASSERT_DOUBLE_EQ(MathOps::addition(5, 3), 8);
 }
 
-TEST(MathOperations, Subtract) {
+TEST(Test, Subtract) {
     ASSERT_DOUBLE_EQ(MathOps::subtraction(5, 3), 2);
 }
 
-TEST(MathOperations, Multiply) {
+TEST(Test, Multiply) {
     ASSERT_DOUBLE_EQ(MathOps::multiplication(5, 3), 15);
 }
 
-TEST(MathOperations, Divide) {
+TEST(Test, Divide) {
     ASSERT_DOUBLE_EQ(MathOps::division(6, 3), 2);
 }
 
-TEST(MathOperations, DivideByZero) {
-    ASSERT_THROW(MathOps::division(6, 0), std::runtime_error);
+TEST(Test, DivideByZero) {
+    EXPECT_THROW(MathOps::division(6, 0), std::runtime_error);
 }
 
 TEST(Test, InputOutput) {
