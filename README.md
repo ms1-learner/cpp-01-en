@@ -167,6 +167,14 @@ Run the following command:
 
 Now, navigate to your GitHub repository. The changes should be successfully pushed!
 
+> You may be asked to enter password and encounter the following error. To fix this, you have to use personal access token for password authentication. More information is available on [the official document](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
+
+```sh
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/ms1-learner/cpp-01-en.git/'
+```
+
 ### Submitting the link on MS1
 After you update your GitHub repository, you need to submit the GitHub link to your challenge on MS1. Be sure to submit the link to the specific challenge, not just the repsitory link.
 
