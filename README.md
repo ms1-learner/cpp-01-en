@@ -11,59 +11,18 @@ The general link structure will be something like the following:
 
 For instance, all challenges of module 1 of the C++ learning path for those studying in Japanese can be accessed via:
 
-`https://github.com/ms1-learner/cpp-01-jp`
+`https://github.com/ms1-learner/cpp-01-ja`
 
-Each challenge can be accessed by following the path with the repository which is specified on the insrtuctions page. For example:
+Each challenge can be accessed by following the path with the repository which is specified on the instructions page. For example:
 
 `01_introduction_to_cpp/01_challenge`
 
-## Copying Challenges to Your Local Machine
-To submit a challenge after navigating to its parent repository, you will need to clone the entire repository to your local machine. If you are unfamiliar with what ‘clone’ means, it’s basically downloading the repository to be able to work on it on your device. 
-
-We will clone the repository located `https://github.com/ms1-learner/cpp-01-jp` as an example.
-
-> Don’t worry if you aren’t familiar with Git and GitHub. This guide will tell you what you need to do, step by step. You will get to study Git and GitHub in more detail in the Agile Development module in your learning path.
-
-Navigate to the repository via the given link.
-
-![challenge-submission-1](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-1.png)
-
-Copy the repository link.
-
-![challenge-submission-2](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-2.png)
-
-Open the terminal on your computer and navigate to the desktop or the folder you want to download the repository in. To navigate to the Desktop via the terminal, type cd Desktop then press Enter/Return on your keyboard.
-
-![challenge-submission-3](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-3.png)
-
-After navigating to Desktop, type git clone followed by the repository link you copied in step 2 then press Enter/Return on your keyboard.
-
-![challenge-submission-4](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-4.png)
-
-The repository folder should now appear on your Desktop. Drag and drop it or open it using Visual Studio Code.
-
-![challenge-submission-5](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-5.png)
-
-![challenge-submission-6](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-6.png)
-
-All challenges are contained within folders in the repository. Each one these folders will have the name and the number of the relevant unit. Each unit has at least 1 challenge and at most 5. 
-
-- If a unit folder has one challenge, this challenge details will be contained in a README file.
-
- ![challenge-submission-7](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-7.png)
-
--  If a unit folder has more than one challenge, each challenge details will be contained within a sub-folder.
-
-![challenge-submission-8](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-8.png)
-
-## Creating Your Remote Repository
-The process of submitting challenges requires all learners to create remote GitHub repositories. These repositories are where you will store all your solutions to the challenges and add instructors for reviewing and grading.
-
-### Creating Your GitHub Account
-
+## Creating Your GitHub Account
 > Feel free to skip this sub-section if you already have a GitHub account.
 
-Creating an account on Github is straightforward. We begin by heading to https://github.com/signup .
+The process of submitting challenges requires all learners to create remote GitHub repositories. These repositories are where you will store all your solutions to the challenges and add instructors for reviewing and grading.
+
+Creating an account on Github is straightforward. We begin by heading to https://github.com/signup.
 
 You will be presented with a prompt to fill in your basic information. Fill it in, solve the captcha and you will end up with something that looks like the following:
 
@@ -78,54 +37,53 @@ Finally, you will be asked whether you would like to go with the free plan or th
 
 And that’s it! You are done! You should now see your Github account dashboard.
 
-### Creating Your GitHub Repository
-> Feel free to skip this sub-section if you already have created a public GitHub Repository.
+## Copying Challenges to Your Local Machine
+To submit a challenge after navigating to its parent repository, you will need to fork the repository, then clone it to your local machine.
 
-Within your profile page, click on “Repositories” tab then click on the “New” button.
+We will fork and clone the following repository as an example: `https://github.com/ms1-learner/cpp-01-en`.
 
-![challenge-submission-12](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-12.png)
+> Don’t worry if you aren’t familiar with Git and GitHub. This guide will tell you what you need to do, step by step. You will get to study Git and GitHub in more detail in the Agile Development module in your learning path.
 
-Provide a name for your repository and make sure it’s set to “public”.
+Navigate to the repository via the given link.
 
-> We require all learners' repositories to be public for grading purposes.
+<img width="1728" alt="Screenshot 2023-11-24 at 12 54 05" src="https://github.com/ms1-learner/cpp-01-en/assets/5623716/0cebed3b-57b3-44ab-9250-bc37d2a180e7">
 
-![challenge-submission-13](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-13.png)
+Fork your own copy of the repository. This will create a copy of the repository on your own account.
 
-That’s it! Copy the repository link as we will use it to connect this GitHub repository with the one you cloned earlier.
+<img width="1728" alt="Screenshot 2023-11-24 at 13 00 21" src="https://github.com/ms1-learner/cpp-01-en/assets/5623716/cc80b97f-5086-4905-bfac-bc436feaa40b">
 
-![challenge-submission-14](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-14.png)
+Proceed with the default settings and press the "Create fork" button to complete the fork.
 
-### Connecting the GitHub Repository with Your Local Repository
-To link the cloned local repository to the newly created GitHub repository, you will need to run some Git commands.
+<img width="1728" alt="Screenshot 2023-11-24 at 12 54 20" src="https://github.com/ms1-learner/cpp-01-en/assets/5623716/b65a776a-e2d9-47d4-8f8c-2faa79fa3478">
 
-> Again, this guide will show you exactly what commands you need to run. You needn’t know how Git works.
+Copy your forked repository link.
 
-Navigate to your local repository folder.
+<img width="1728" alt="Screenshot 2023-11-24 at 13 01 27" src="https://github.com/ms1-learner/cpp-01-en/assets/5623716/333e32d1-43dc-43d2-84db-26fc6ea72db8">
 
-![challenge-submission-15](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-15.png)
+Open the terminal on your computer and navigate to the folder into which you want to clone the repository. For example, to navigate to your Documents folder, if it exists, type `cd Documents` then press Enter/Return on your keyboard.
 
+<img width="990" alt="Screenshot 2023-11-24 at 13 07 44" src="https://github.com/ms1-learner/cpp-01-en/assets/5623716/73238ec2-79d4-47be-b719-b14b17d21a06">
 
+After navigating to Documents, type `git clone` followed by the repository link you copied previously then press Enter/Return on your keyboard.
 
-The current repository is a clone of the remote one you accessed via the ms1-learner GitHub account. We need to change this remote connection to point instead to the GitHub repository you created on your own account.
+<img width="990" alt="Screenshot 2023-11-24 at 13 06 35" src="https://github.com/ms1-learner/cpp-01-en/assets/5623716/c946119e-e9b4-4272-bfb2-3fa65b854b4e">
 
-First, let’s check the current remote repository. Run the command git remote -v then press Enter/Return on your keyboard.
+The repository should now be cloned into your Documents folder. Open it using Visual Studio Code.
 
-![challenge-submission-16](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-16.png)
+<img width="1840" alt="Screenshot 2023-11-24 at 13 13 54" src="https://github.com/ms1-learner/cpp-01-en/assets/5623716/b135f4fb-db63-440d-8966-cf72a3d97388">
 
-To change this, run the command git remote set-url origin followed by your GitHub repository link.
+<img width="1840" alt="Screenshot 2023-11-24 at 13 12 07" src="https://github.com/ms1-learner/cpp-01-en/assets/5623716/596eb26c-e582-4889-9c43-3a11dc76cf09">
 
-![challenge-submission-17](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-17.png)
+All challenges are contained within folders in the repository. Each one these folders will have the name and the number of the relevant unit.
 
-As you can observe in the screenshot above, the remote repository is now changed from `https://github.com/ms1-learner/cpp-01-jp.git` to `https://github.com/devwoven/cpp-challenges-01.git`
+<img width="1840" alt="Screenshot 2023-11-24 at 13 12 36" src="https://github.com/ms1-learner/cpp-01-en/assets/5623716/90c77026-2c1e-47d0-9da6-c3f6302df015">
 
-The username (highlighted in red) and the repository name (highlighted in blue) will reflect your own repository username as well as the name you chose for your GitHub repository.
-
-Now, you are ready to work on the challenges solutions!
+Now, you are ready to work on the challenge solutions!
 
 ## Working on the solutions
 In some cases, a challenge README file will only contain text describing what you need to do. In other challenges, you will be given some code with missing details that you need to complete or you will be given some helper code to start with.
 
-Let’s assume your challenge for unit 1 is to create a C++ program that adds two number. Your solution could be something like the following:
+Let’s assume your challenge is to create a C++ program that adds two numbers. Your solution could be something like the following:
 
 > Note: You don’t need to understand any of this. This is purely used as a demonstration.
 
@@ -141,36 +99,33 @@ int main() {
     return 0;
 }
 ```
-Assume you saved this program in a file called add.cpp. Let’s now save and push this solution to the remote repository.
 
-### Preparing and pushing the solutions for grading
+Assume you saved this program in a file called `main.cpp`. Let’s now save and push this solution to GitHub.
+
+## Preparing and pushing the solutions for grading
 
 To submit your solution and push it to your GitHub repository, you need to first “commit” this solution. To do so, run the following commands in the terminal:
 
 `git add .`
 
-`git commit -m "My solution to challenge of unit 01"`
+`git commit -m "Submit challenge for grading"`
 
-The first command asks Git to track this new file and the second command saves it with the message “My solution to challenge of unit 01”.
+The first command asks Git to track this new file and the second command saves it with the message “Submit challenge for grading”.
 
-![challenge-submission-18](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-18.png)
+<img width="1840" alt="Screenshot 2023-11-24 at 13 20 19" src="https://github.com/ms1-learner/cpp-01-en/assets/5623716/f5b8b456-7db9-43e3-8d63-798f9ff132d3">
 
-Now, your solution is ready to be pushed to the remote repository. Let’s see how we can achieve this.
+Now, your solution is ready to be pushed to the remote repository:
 
-Run the following command:
+`git push`
 
-`git push --set-upstream origin main`
-
-> The order in this command is very important. Make sure the only thing you change here is the branch name you created. 
-
-![challenge-submission-19](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-19.png)
+<img width="1840" alt="Screenshot 2023-11-24 at 13 20 50" src="https://github.com/ms1-learner/cpp-01-en/assets/5623716/fd27927b-2f24-4414-9e6c-73f5ca70b444">
 
 Now, navigate to your GitHub repository. The changes should be successfully pushed!
 
 ### Submitting the link on MS1
 After you update your GitHub repository, you need to submit the GitHub link to your challenge on MS1. Be sure to submit the link to the specific challenge, not just the repsitory link.
 
-Examlple: `https://github.com/taro-yamada/cpp-01-jp/01_introduction_to_cpp/01_challenge`
+Example: `https://github.com/abolinsky/cpp-01-en/tree/main/01_introduction_to_cpp/01_challenge`
 
 Navigate to the corresponding challenge page on MS1.
 
