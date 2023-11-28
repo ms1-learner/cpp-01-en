@@ -122,6 +122,12 @@ Now, your solution is ready to be pushed to the remote repository:
 
 Now, navigate to your GitHub repository. The changes should be successfully pushed!
 
+>    You may be asked to enter your GitHub account username and password and encounter the following error.
+>
+>   **fatal: Authentication failed for 'https://github.com/ms1-learner/cpp-01-en.git/'**
+>
+>   To fix this, you must use a personal access token for authentication. Information detailing this process is available in [the official GitHub documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
+
 ### Submitting the link on MS1
 After you update your GitHub repository, you need to submit the GitHub link to your challenge on MS1. Be sure to submit the link to the specific challenge, not just the repsitory link.
 
