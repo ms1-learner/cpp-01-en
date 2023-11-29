@@ -137,20 +137,20 @@ Navigate to the corresponding challenge page on MS1.
 
 At the bottom, add the link of your GitHub repository and click “Submit”.
 
-![challenge-submission-20](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-20.png)
+<img width="1840" alt="Screenshot 2023-11-29 at 14 42 44" src="https://github.com/ms1-learner/cpp-01-en/assets/5623716/37f2b792-098a-4485-a3c5-69bc69328fdc">
 
 ### Adding instructors to your repository
 In order for instructors to review and grade your solutions, you need to add them to your GitHub repository as collaborators.
 
 To add collaborators, click on the “Settings” button.
 
-![challenge-submission-21](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-21.png)
+<img width="1840" alt="Screenshot 2023-11-29 at 14 45 52" src="https://github.com/ms1-learner/cpp-01-en/assets/5623716/292c9ad9-d30d-4794-b16a-cd441ab017b9">
 
 Navigate to the “Collaborators” setting on the left-hand panel and click on it. 
 
 Under “Manage access”, click on “Add people” and add the assigned instructor GitHub username or email.
 
-![challenge-submission-22](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-22.png)
+<img width="1840" alt="Screenshot 2023-11-29 at 14 46 00" src="https://github.com/ms1-learner/cpp-01-en/assets/5623716/f19e5f6c-06ef-4981-bcb3-31cdb47b55d2">
 
 And that’s it! The solution is now uploaded correctly and can be viewed by instructors!
 
