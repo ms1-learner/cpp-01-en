@@ -4,13 +4,6 @@
 #include <string>
 #include <algorithm>
 
-template <typename T>
-std::string pointerToString(T* ptr) {
-    std::ostringstream oss;
-    oss << static_cast<const void*>(ptr);
-    return oss.str();
-}
-
 template<typename Func, typename... Args>
 std::string captureOutput(Func&& func, Args&&... args) {
     std::streambuf* oldCoutStreamBuf = std::cout.rdbuf();

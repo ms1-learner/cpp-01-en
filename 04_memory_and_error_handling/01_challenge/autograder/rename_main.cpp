@@ -2,8 +2,8 @@
 #include <fstream>
 #include <string>
 #include <algorithm>
-#include <filesystem>
 #include <cctype>
+#include <filesystem>
 #include <sstream>
 #include <vector>
 
@@ -23,7 +23,7 @@ void extract_variables(std::string& content) {
     bool in_main_function = false;
 
     std::vector<std::string> data_types = {
-        "int", "float", "double", "char", "long", "short", "bool", "std::string"
+        "int", "float", "double", "char", "long", "short", "bool", "std::string", "int*"
     };
 
     while (std::getline(stream, line)) {
